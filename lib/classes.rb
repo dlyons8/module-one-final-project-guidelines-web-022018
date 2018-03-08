@@ -1,8 +1,8 @@
 require 'pry'
 
 class User
-  =begin A user should have journals and tags.
-  =end
+=begin A user should have journals and tags.
+=end
 
   attr_accessor :name
 
@@ -29,8 +29,8 @@ end
 
 class Mood
 
-  =begin
-  =end
+=begin
+=end
 
   attr_accessor :emotion
 
@@ -42,8 +42,8 @@ end
 
 class Journal < ActiveRecord::Base
 
-  =begin Journals should have an affiliated user, mood, and tag.
-  =end
+=begin Journals should have an affiliated user, mood, and tag.
+=end
 
   attr_accessor :entry, :location, :mood
 
@@ -59,6 +59,8 @@ class Journal < ActiveRecord::Base
   end
 
 
+end
 
+class Tag
 
 end
